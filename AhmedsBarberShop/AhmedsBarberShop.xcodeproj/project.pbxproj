@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51BDA101B361A000006E308 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51BDA0F1B361A000006E308 /* AppDelegate.swift */; };
+		B51BDA121B361A000006E308 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51BDA111B361A000006E308 /* ViewController.swift */; };
+		B51BDA151B361A000006E308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51BDA131B361A000006E308 /* Main.storyboard */; };
+		B51BDA171B361A000006E308 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51BDA161B361A000006E308 /* Images.xcassets */; };
+		B51BDA1A1B361A000006E308 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51BDA181B361A000006E308 /* LaunchScreen.xib */; };
+		B51BDA261B361A000006E308 /* AhmedsBarberShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51BDA251B361A000006E308 /* AhmedsBarberShopTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51BDA201B361A000006E308 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51BDA021B361A000006E308 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51BDA091B361A000006E308;
+			remoteInfo = AhmedsBarberShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51BDA0A1B361A000006E308 /* AhmedsBarberShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhmedsBarberShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51BDA0E1B361A000006E308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51BDA0F1B361A000006E308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B51BDA111B361A000006E308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B51BDA141B361A000006E308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B51BDA161B361A000006E308 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B51BDA191B361A000006E308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B51BDA1F1B361A000006E308 /* AhmedsBarberShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AhmedsBarberShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51BDA241B361A000006E308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51BDA251B361A000006E308 /* AhmedsBarberShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhmedsBarberShopTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51BDA071B361A000006E308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51BDA1C1B361A000006E308 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51BDA011B361A000006E308 = {
+			isa = PBXGroup;
+			children = (
+				B51BDA0C1B361A000006E308 /* AhmedsBarberShop */,
+				B51BDA221B361A000006E308 /* AhmedsBarberShopTests */,
+				B51BDA0B1B361A000006E308 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51BDA0B1B361A000006E308 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51BDA0A1B361A000006E308 /* AhmedsBarberShop.app */,
+				B51BDA1F1B361A000006E308 /* AhmedsBarberShopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51BDA0C1B361A000006E308 /* AhmedsBarberShop */ = {
+			isa = PBXGroup;
+			children = (
+				B51BDA0F1B361A000006E308 /* AppDelegate.swift */,
+				B51BDA111B361A000006E308 /* ViewController.swift */,
+				B51BDA131B361A000006E308 /* Main.storyboard */,
+				B51BDA161B361A000006E308 /* Images.xcassets */,
+				B51BDA181B361A000006E308 /* LaunchScreen.xib */,
+				B51BDA0D1B361A000006E308 /* Supporting Files */,
+			);
+			path = AhmedsBarberShop;
+			sourceTree = "<group>";
+		};
+		B51BDA0D1B361A000006E308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51BDA0E1B361A000006E308 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B51BDA221B361A000006E308 /* AhmedsBarberShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				B51BDA251B361A000006E308 /* AhmedsBarberShopTests.swift */,
+				B51BDA231B361A000006E308 /* Supporting Files */,
+			);
+			path = AhmedsBarberShopTests;
+			sourceTree = "<group>";
+		};
+		B51BDA231B361A000006E308 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51BDA241B361A000006E308 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51BDA091B361A000006E308 /* AhmedsBarberShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51BDA291B361A000006E308 /* Build configuration list for PBXNativeTarget "AhmedsBarberShop" */;
+			buildPhases = (
+				B51BDA061B361A000006E308 /* Sources */,
+				B51BDA071B361A000006E308 /* Frameworks */,
+				B51BDA081B361A000006E308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AhmedsBarberShop;
+			productName = AhmedsBarberShop;
+			productReference = B51BDA0A1B361A000006E308 /* AhmedsBarberShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51BDA1E1B361A000006E308 /* AhmedsBarberShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51BDA2C1B361A000006E308 /* Build configuration list for PBXNativeTarget "AhmedsBarberShopTests" */;
+			buildPhases = (
+				B51BDA1B1B361A000006E308 /* Sources */,
+				B51BDA1C1B361A000006E308 /* Frameworks */,
+				B51BDA1D1B361A000006E308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51BDA211B361A000006E308 /* PBXTargetDependency */,
+			);
+			name = AhmedsBarberShopTests;
+			productName = AhmedsBarberShopTests;
+			productReference = B51BDA1F1B361A000006E308 /* AhmedsBarberShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51BDA021B361A000006E308 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Benjamin Laddin";
+				TargetAttributes = {
+					B51BDA091B361A000006E308 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B51BDA1E1B361A000006E308 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B51BDA091B361A000006E308;
+					};
+				};
+			};
+			buildConfigurationList = B51BDA051B361A000006E308 /* Build configuration list for PBXProject "AhmedsBarberShop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B51BDA011B361A000006E308;
+			productRefGroup = B51BDA0B1B361A000006E308 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51BDA091B361A000006E308 /* AhmedsBarberShop */,
+				B51BDA1E1B361A000006E308 /* AhmedsBarberShopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51BDA081B361A000006E308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51BDA151B361A000006E308 /* Main.storyboard in Resources */,
+				B51BDA1A1B361A000006E308 /* LaunchScreen.xib in Resources */,
+				B51BDA171B361A000006E308 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51BDA1D1B361A000006E308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51BDA061B361A000006E308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51BDA121B361A000006E308 /* ViewController.swift in Sources */,
+				B51BDA101B361A000006E308 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51BDA1B1B361A000006E308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51BDA261B361A000006E308 /* AhmedsBarberShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51BDA211B361A000006E308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51BDA091B361A000006E308 /* AhmedsBarberShop */;
+			targetProxy = B51BDA201B361A000006E308 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51BDA131B361A000006E308 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51BDA141B361A000006E308 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B51BDA181B361A000006E308 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51BDA191B361A000006E308 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51BDA271B361A000006E308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B51BDA281B361A000006E308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51BDA2A1B361A000006E308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AhmedsBarberShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B51BDA2B1B361A000006E308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AhmedsBarberShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B51BDA2D1B361A000006E308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AhmedsBarberShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AhmedsBarberShop.app/AhmedsBarberShop";
+			};
+			name = Debug;
+		};
+		B51BDA2E1B361A000006E308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AhmedsBarberShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AhmedsBarberShop.app/AhmedsBarberShop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51BDA051B361A000006E308 /* Build configuration list for PBXProject "AhmedsBarberShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51BDA271B361A000006E308 /* Debug */,
+				B51BDA281B361A000006E308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51BDA291B361A000006E308 /* Build configuration list for PBXNativeTarget "AhmedsBarberShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51BDA2A1B361A000006E308 /* Debug */,
+				B51BDA2B1B361A000006E308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B51BDA2C1B361A000006E308 /* Build configuration list for PBXNativeTarget "AhmedsBarberShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51BDA2D1B361A000006E308 /* Debug */,
+				B51BDA2E1B361A000006E308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B51BDA021B361A000006E308 /* Project object */;
+}

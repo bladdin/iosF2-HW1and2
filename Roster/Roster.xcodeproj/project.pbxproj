@@ -14,6 +14,9 @@
 		B56C297E1B2A72490045A3A0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56C297C1B2A72490045A3A0 /* LaunchScreen.xib */; };
 		B56C298A1B2A72490045A3A0 /* RosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56C29891B2A72490045A3A0 /* RosterTests.swift */; };
 		B56C299B1B2AB4BB0045A3A0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56C299A1B2AB4BB0045A3A0 /* DetailViewController.swift */; };
+		B57E95E81B3C880700A87656 /* People.plist in Resources */ = {isa = PBXBuildFile; fileRef = B57E95E71B3C880700A87656 /* People.plist */; };
+		B5DD6B751B408C0900260360 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD6B741B408C0900260360 /* PersonCell.swift */; };
+		B5DD6B771B40967800260360 /* tumblr_static_ckzvuxmfhw8cs8c4oskc0og4k (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5DD6B761B40967800260360 /* tumblr_static_ckzvuxmfhw8cs8c4oskc0og4k (1).jpg */; };
 		B5F8CD701B2E692F00C8DB0D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F8CD6F1B2E692F00C8DB0D /* Person.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +42,9 @@
 		B56C29881B2A72490045A3A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B56C29891B2A72490045A3A0 /* RosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RosterTests.swift; sourceTree = "<group>"; };
 		B56C299A1B2AB4BB0045A3A0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B57E95E71B3C880700A87656 /* People.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = People.plist; path = ../People.plist; sourceTree = "<group>"; };
+		B5DD6B741B408C0900260360 /* PersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		B5DD6B761B40967800260360 /* tumblr_static_ckzvuxmfhw8cs8c4oskc0og4k (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tumblr_static_ckzvuxmfhw8cs8c4oskc0og4k (1).jpg"; sourceTree = "<group>"; };
 		B5F8CD6F1B2E692F00C8DB0D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +101,9 @@
 		B56C29711B2A72490045A3A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B57E95E71B3C880700A87656 /* People.plist */,
 				B56C29721B2A72490045A3A0 /* Info.plist */,
+				B5DD6B761B40967800260360 /* tumblr_static_ckzvuxmfhw8cs8c4oskc0og4k (1).jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 		B56C29941B2A72660045A3A0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B5DD6B741B408C0900260360 /* PersonCell.swift */,
 				B56C29771B2A72490045A3A0 /* Main.storyboard */,
 			);
 			name = Views;
@@ -224,7 +233,9 @@
 			files = (
 				B56C29791B2A72490045A3A0 /* Main.storyboard in Resources */,
 				B56C297E1B2A72490045A3A0 /* LaunchScreen.xib in Resources */,
+				B5DD6B771B40967800260360 /* tumblr_static_ckzvuxmfhw8cs8c4oskc0og4k (1).jpg in Resources */,
 				B56C297B1B2A72490045A3A0 /* Images.xcassets in Resources */,
+				B57E95E81B3C880700A87656 /* People.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B56C29761B2A72490045A3A0 /* ViewController.swift in Sources */,
+				B5DD6B751B408C0900260360 /* PersonCell.swift in Sources */,
 				B56C29741B2A72490045A3A0 /* AppDelegate.swift in Sources */,
 				B5F8CD701B2E692F00C8DB0D /* Person.swift in Sources */,
 				B56C299B1B2AB4BB0045A3A0 /* DetailViewController.swift in Sources */,
